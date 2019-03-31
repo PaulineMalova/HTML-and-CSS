@@ -1,0 +1,60 @@
+
+body{
+	background-color:purple;
+}
+
+h1{background-color:red;
+   border-style:solid;
+   border-width:90px;
+   border-color:green;
+   padding:100px;
+   text-align:center;
+}
+
+/*CONTINUING:DOCUMENT*/
+
+header{
+	background-color: green;
+}
+
+header ul li{
+	display: inline;
+	text-align: center;
+	padding: 100px;
+}
+
+header ul li a{
+	text-decoration: none;
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+	border: solid 5px black;
+}
+
+.main-container{
+	width: 900px;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.5);
+	border-style: solid;
+	border-width: 10px;
+	border-color: pink;
+	outline-style: groove;
+	outline-width: 10px;
+	outline-color: red;
+	text-align: justify;
+	color: gray;
+	font-family: monotype corsiva;
+	font-size: 2vw;
+	padding: 10px;
+}
+
+.main-container h1{
+	border-width: 0px;
+	padding: 30px;
+	background-color: green;
+	color: yellow;
+	font-family: algerian;
+
+}

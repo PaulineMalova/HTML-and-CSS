@@ -1,0 +1,14 @@
+/*.my-stuff{
+	width: 700px;
+	margin: 20%;
+}
+*/
+.panel{
+	width:700px;
+	height: 100px;
+	padding: 20px;
+	background-color: blue;
+	color: #fff;
+	margin: 10px 5px;
+	border: solid red 5px;
+}
