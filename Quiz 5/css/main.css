@@ -1,0 +1,68 @@
+body{
+	background-color: pink;
+	background-image: url(../img/dance.gif), url(../img/blackie.png), url(../img/coffee.png), url(../img/girllaptop.jpg);
+	background-repeat: no-repeat;
+	background-size: 25%, 20%, 10%, cover;
+	background-position: 98% 15%, 6% 57%, 19% 84%, center;
+	background-attachment: fixed;
+}
+
+
+.main-cont{
+	width: 900px;
+	margin: 0 auto;
+	color: blue;
+	background-color: rgba(0,0,0,0.4);
+	padding: 20px;
+}
+
+.main-cont h1{
+	text-align: center;
+	font-family: Times New Roman;
+}
+
+.main-cont h2{
+	font-family: Times New Roman;
+}
+
+.main-cont p{
+	font-family: arial;
+	font-size: 20px;
+}
+
+.main-cont .float1{
+	min-height: 280px;
+}
+
+.main-cont .float2{
+	min-height: 280px;
+}
+
+.main-cont .float3{
+	min-height: 280px;
+}
+
+.main-cont .float1 img{
+	float: left;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+
+.main-cont .float2 img{
+	float: left;
+	padding-right: 50px;
+	padding-bottom: 50px;
+
+}
+
+.main-cont .float3 img{
+	float: left;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+
+footer{
+	text-align: center;
+	color: blue;
+	font-size: 20px;
+}
