@@ -1,0 +1,165 @@
+body{
+	background-color: rgba(255,255,255,1);
+	padding:0px;
+	margin:0px;
+}
+
+header{
+	background-color: rgb(255,69,0);
+	height:60px;
+	width: 100%;
+	position:fixed;
+	top:0;
+	z-index: 1000;
+}
+
+.content{
+	width:800px;
+	color:purple;
+	margin: 0px auto 0 auto;
+	font-size: 20px;
+	padding:30px;
+	position:relative;
+}
+
+.content h1{
+	position: relative;
+	padding-bottom: 15px;
+}
+
+h2{
+	position:sticky;
+	top:60px;
+	padding:35px;
+}
+
+.content .test{
+	width:400px;
+	height:400px;
+	background-color: black;
+	margin:60px auto 60px;
+	position:relative;
+}
+
+span.plus{
+	width:100px;
+	height:100px;
+	border-radius: 50px;
+	text-align:center;
+	color:white;
+	display: block;
+	font-size: 50px;
+	line-height: 2em;
+	position: absolute;
+
+}
+
+span.plus.one{
+	background-color: blue;
+	/*z-index: 10;*/
+	top:-50px;
+	left:-50px;
+}
+
+span.plus.two{
+	background-color: red;
+	right:-50px;
+	top:-50px;
+
+}
+
+span.plus.three{
+	background-color: green;
+	bottom:-50px;
+	right:-50px;
+}
+
+span.plus.four{
+	background-color: yellow;
+	left:-50px;
+	bottom:-50px;
+}
+
+.icons{
+	color:white;
+	line-height: 1.8em;
+	width: 200px;
+	float:left;
+	height:500px;
+	margin:30px;
+	font-size: 35px;
+	position: sticky;
+	top:125px;
+}
+
+.icons .panel{
+	float:left;
+}
+
+.icons a{
+	color:white;
+	text-decoration: none;
+}
+
+.icons .linkedin-icon{
+	display: inline-block;
+	width:50px;
+	height: 50px;
+	background-color: rgb(0,0,255);
+	border-radius: 25px;
+	text-align: center;
+	margin: 20px 75px 20px 75px;
+	text-align: center;
+}
+
+.icons .facebook-icon{
+	display: inline-block;
+	width:50px;
+	height: 50px;
+	background-color: rgb(0,0,204);
+	border-radius: 25px;
+	margin: 20px 75px 20px 75px;
+	text-align: center;
+}
+
+.icons .twitter-icon{
+	display: inline-block;
+	width:50px;
+	height: 50px;
+	background-color: rgb(0,128,255);
+	border-radius: 25px;
+	margin: 20px 75px 20px 75px;
+	text-align: center;
+}
+
+.icons .instagram-icon{
+	display: inline-block;
+	width:50px;
+	height: 50px;
+	background-color: rgb(255,0,0);
+	border-radius: 25px;
+	margin: 20px 75px 20px 75px;
+	text-align: center;
+}
+
+.icons .whatsapp-icon {
+	display: inline-block;
+	width:50px;
+	height: 50px;
+	background-color: rgb(0,204,0);
+	border-radius: 25px;
+	margin: 20px 75px 20px 75px;
+	text-align: center;
+}
+
+
+footer{
+	background-color: rgb(255,69,0);
+	height:80px;
+	width:100%;
+	color:purple;
+	font-size: 16px;
+	line-height: 1.5em;
+	text-align: center;
+	padding-bottom: 0px;
+}
