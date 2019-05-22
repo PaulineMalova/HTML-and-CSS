@@ -1,0 +1,102 @@
+body{
+	background-color:#ddd;
+	font-family: arial;
+	padding:0px;
+	margin:0px;
+	background-image: url(../img/prettyrocks1.jpg);
+}
+
+.circle{
+	max-width:200px;
+	min-height:200px;
+	margin:0 auto;
+	border-radius:30px;
+}
+
+.login-cont{
+	max-width:400px;
+	min-height:300px;
+	margin:10% auto;
+}
+
+.login-cont h3{
+	color:white;
+}
+
+.login-cont form{
+	background-color: rgba(255,255,255,0.37);
+	padding:30px;
+	margin:5px;
+	border-radius:5px;
+	box-shadow: 0 46px 5px rgba(0,0,0,0.5);
+}
+
+.login-cont form ul{
+	list-style: none;
+	margin:0px;
+	padding:0px;
+}
+
+.login-cont form ul li{
+	padding:0px;
+	margin:0px  0px 10px 0;
+}
+
+.login-cont ul li:last-child{
+	margin:0px;
+}
+
+.login-content form label{
+	display: block;
+	padding-bottom: 5px;
+	font-size: 12px;
+}
+
+.login-cont form input+label{
+	display:inline;
+	padding:10px;
+}
+
+.login-cont form input[type=text],.login-cont form input[type=email],.login-cont form input[type=password]{
+	display:block;
+	width:328px;
+	border: 1px solid #ccc;
+	height:35px;
+	text-indent:10px;
+	border-radius:5px;
+	margin-bottom: 
+}
+
+.login-cont form input[type=date]{
+	display:block;
+	width:328px;
+	border: 1px solid #ccc;
+	height:35px;
+	text-indent:10px;
+	border-radius:5px;
+}
+
+.login-cont form select{
+	display:block;
+	width:328px;
+	border: 1px solid #ccc;
+	height:35px;
+	text-indent:10px;
+	border-radius:5px;
+}
+
+.login-cont form input[type=radio]{
+	padding-right: 40px;
+}
+
+.login-cont input[type=submit]{
+	width:330px;
+	background-color: #555;
+	color:#fff;
+	height:40px;
+	border:none;
+	border-radius: 5px;
+}
+	
+
+
